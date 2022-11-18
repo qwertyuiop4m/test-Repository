@@ -38,14 +38,14 @@ class _AccidentScreenState extends State<AccidentScreen> {
           crossAxisSpacing: 20,
           mainAxisSpacing: 20
       ),
-          itemCount: news.length,
+          itemCount: accident.length,
           itemBuilder: (context, index) {
             return Container(
               padding: EdgeInsets.all(20),
               child: Column(
                 children: [
-                  Text(news[index].title),
-                  Text(news[index].description),
+                  Text(accident[index].title),
+                  Text(accident[index].description),
                 ],
               ),
             );
